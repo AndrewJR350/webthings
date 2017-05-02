@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Page</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body id="studentPage">
+<div class="container">
+	<div class="row">
+	<div class="all">
+		<div class="row">
+			<legend class="col-lg-2" id="userName"></legend>
+		</div>	
+	<section class="studentPage">
+	
+		<div class="writing">
+		<div class="row">
+			<legend class="col-lg-2"> Student Name : </legend><legend class="col-lg-1" id = "studentName"> </legend>
+		</div>
+		<div class="row" >
+			<legend class="col-lg-2"> Student Index : </legend><legend class="col-lg-1" id = "studentId"> </legend>
+		</div>
+		<div class="row">
+			<legend class="col-lg-2"> Lecturer Name : </legend><legend class="col-lg-1" id = "lectureName"> </legend>
+		</div>
+		<div class="row">
+			<div class="details">
+				<form class="form-horizontal" onsubmit="return false">
+    			<fieldset>
+			    	<div class="form-group">
+      				<label for="textArea" class="col-lg-2 control-label">Session Details</label>
+      					<div class="col-lg-6">
+        					<textarea class="form-control" rows="5" id="sessionArea" readonly="readonly"></textarea>
+        					<span class="help-block" id="sessionDate"></span>
+        					<span class="help-block" id="sessionNumber"></span>
+      					</div>
+    				</div>
+
+    				<div class="row">
+    					<div class="form-group">
+				    		<div class="col-lg-4 col-lg-offset-6">
+				        	<button type="button" class="btn btn-default" id="previousSession">Previous Session</button>      
+				        	<button type="button" class="btn btn-default" id="beforeSession">Before Session</button>  
+				      		</div>
+				    	</div>
+    				</div>
+			    </fieldset>
+			    </form>    
+			</div>		
+		</div>
+		</div>	
+	</section>
+	</div>
+	</div>
+</div>
+<footer>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/custom.js"></script>
+</footer>
+</body>
+</html>

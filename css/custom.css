@@ -1,0 +1,40 @@
+img.img-circle {
+    position: relative;
+    top: 45px;
+    left: 320px;
+}
+
+
+fieldset {
+    position: relative;
+    top: 65px;
+}
+
+section.login {
+	position: relative;
+	top: 75px;
+    background-color: white;
+    color: black;
+    height: 450px;
+    border-radius: 10px;
+}
+
+
+img.img-rounded {
+    position: relative;
+    top: -150px;
+    left: 765px;
+    height: 275px;
+}
+
+.col-lg-10 {
+    position: relative;
+    top: -238px;
+    left: 300px;
+}
+
+.form-group.buttons {
+    position: relative;
+    top: 25px;
+    left: -90px;
+}

@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Lecture Page</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+</head>
+<body id="lecturerPage">
+<div class="container">
+	<div class="row">
+	<div class="all">
+		<div class="row">
+			<legend id="userName" class="col-lg-4"></legend>
+		</div>	
+	<section class="lecturerDetails">
+		<div class="row">
+			
+		</div>
+		<div class="row">
+			<legend class="col-lg-2"> Lecturer Name : </legend><legend class="col-lg-1" id = "lecturerName"> </legend>
+		</div>
+		<div class="row">
+			<legend class="col-lg-3"> Lecturer ID Number : </legend><legend class="col-lg-1" id = "lecturerId"> </legend>
+		</div>
+		
+
+		<div class="row">
+			<div class="search">
+			<form class="form-horizontal" onsubmit="return false">
+    			<fieldset>
+				<div class="form-group">
+				<legend>Student Details</legend>
+			    		<label for="inputStudentID" class="col-lg-2 control-label">Student ID</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputStudentID" placeholder="Enter Student ID" required="required">
+			      		</div>
+			      		<div class="form-group">
+			      		<div class="col-lg-5">
+			      			<button type="button" class="btn btn-info col-lg-2" id="findStudent">Search</button>
+			      		</div>
+			      		</div>
+			    	</div>
+			   	</fieldset>
+			</form>
+			</div>
+		</div>
+		<div class="row">
+			<div class="details">
+				<form class="form-horizontal" onsubmit="return false">
+    			<fieldset>
+			    	<div class="form-group">
+			    		<label for="inputStudentName" class="col-lg-2 control-label">Student Name</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputStudentName" placeholder="Student Name" readonly="readonly">
+			      		</div>
+			      	</div>
+
+			      	<div class="form-group">
+			    		<label for="inputSessionStartTime" class="col-lg-2 control-label">Strat Time</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputSessionStartTime" placeholder="Strat Time" required="required">
+			      		</div>
+			      	</div>
+
+			      	<div class="form-group">
+			    		<label for="inputSessionEndTime" class="col-lg-2 control-label">End Time</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputSessionEndTime" placeholder="End Time">
+			      		</div>
+			      	</div>
+
+			      	<div class="form-group">
+			    		<label for="inputSessionDate" class="col-lg-2 control-label">Date</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputSessionDate" placeholder="Date">
+			      		</div>
+			      	</div>
+
+			      	<div class="form-group">
+			    		<label for="inputSessionNumber" class="col-lg-2 control-label">Session Number</label>
+			    		<div class="col-lg-3">
+			        		<input type="text" class="form-control" id="inputSessionNumber" placeholder="Session ID">
+			      		</div>
+			      	</div>
+			    	
+			    	<div class="form-group">
+      				<label for="textArea" class="col-lg-2 control-label">Task Details</label>
+      					<div class="col-lg-6">
+        					<textarea class="form-control" rows="5" id="taskArea" required="required"></textarea>
+      					</div>
+    				</div>
+    				
+    				<div class="row">
+    					<div class="form-group">
+				    		<div class="col-lg-4 col-lg-offset-7">
+				        	<button type="submit" class="btn btn-success" id="updateSession">Proceed</button>        
+				      		</div>
+				    	</div>
+    				</div>
+			    </fieldset>
+			    </form>    
+			</div>		
+		</div>	
+	</section>
+	</div>
+	</div>
+</div>
+<footer>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/custom.js"></script>
+	
+</footer>
+</body>
+</html>

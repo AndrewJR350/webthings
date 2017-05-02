@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LOGIN</title>
+	<link rel="stylesheet" type="text/css" href="css/custom.css">
+
+</head>
+<body>
+<div class="container">
+		<section class="login">
+		<legend>Login</legend>
+		<form class="form-horizontal" onsubmit="return false">
+			<div class="row">
+				<img src="img/loginVector.png" style="height: 75px">
+			</div>
+			<div class="row">
+			    <div class="form-group">
+			      <label for="inputUsername" class="col-lg-2 control-label">Username</label>
+			      <div class="col-lg-6">
+			        <input type="text" class="form-control" id="inputUsername" placeholder="Username" required="required">
+			      </div>
+			    </div>
+		    </div>
+		    <div class="row">
+			    <div class="form-group">
+			      <label for="inputPassword" class="col-lg-2 control-label">Password</label>
+			      <div class="col-lg-6">
+			        <input type="password" class="form-control" id="inputPassword" placeholder="Password" required="required">
+			      </div>
+			    </div>
+		    </div>
+		    <div class="row">
+		    	    <div class="form-group">
+				      <label class="col-lg-2 control-label">Category</label>
+				      <div class="col-lg-6">
+				        <div class="radio">
+				          <label>
+				            <input type="radio" name="category" id="radioStudent" value="student">
+				            Student
+				          </label>
+				        </div>
+				        <div class="radio">
+				          <label>
+				            <input type="radio" name="category" id="radiolecturer" value="lecturer">
+				            Lecturer
+				          </label>
+				        </div>
+				      </div>
+				    </div>
+		    </div>
+		    <div class="row">
+		    	<div class="form-group">
+			      <div class="col-lg-4 col-lg-offset-2">
+			        <button type="reset" class="btn btn-danger">Cancel</button>
+			        <button type="submit" class="btn btn-success" id="btnSubmit">Submit</button>
+			      </div>
+			    </div>
+		    </div>
+		</form>
+		</section>		
+</div>
+
+
+<footer>
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/custom.js"></script> 
+</footer>
+</body>
+</html>
